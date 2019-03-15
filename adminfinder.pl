@@ -66,6 +66,13 @@ while(my $line = <$info>) {
 	}
 }
 
+print "Valid Pages\n------------------------------------------\n";
+while(my $entry = <@found>) {
+
+	print $entry . "\n";
+
+}
+
 
 
 sub title {
